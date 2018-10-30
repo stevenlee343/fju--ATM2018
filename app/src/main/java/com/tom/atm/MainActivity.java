@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 100){
             if(resultCode != RESULT_OK){
-                finish();
+                finish(); 
             }
         }
     }
