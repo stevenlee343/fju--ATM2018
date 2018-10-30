@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         if (!logon) {
             Intent intent = new Intent(this, LoginActivity.class);
-            startActivity(intent); 
+            startActivity(intent);
         }
     }
 }
