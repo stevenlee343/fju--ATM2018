@@ -15,7 +15,7 @@ public class LoginActivity extends AppCompatActivity {
         EditText edUserid = findViewById(R.id.ed_userid);
         SharedPreferences setting = getSharedPreferences("atm", MODE_PRIVATE);
         edUserid.setText(setting.getString("PREF_USERID",""));
- 
+
     }
 
     public void login(View view) {
