@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             } else{
                 //TODO: check nickname , age , gender exists
+                logon = true;
                 Intent nickname = new Intent(this, NicknameActivity.class);
                 startActivity(nickname);
             }

@@ -26,7 +26,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="jack" />
 
     <TextView
         android:id="@+id/textView2"
