@@ -20,14 +20,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         if (!logon) {
             Intent intent = new Intent(this, LoginActivity.class);
-            startActivityForResult(intent,RC_LOGIN);
+            startActivityForResult(intent, RC_LOGIN);
         }
 
-        List<String> fruits = Arrays.asList("香蕉","鳳梨","芭樂");
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,fruits);
+        
+
+
+
+    }
+
+    private void listview() {
+        List<String> fruits = Arrays.asList("香蕉", "鳳梨", "芭樂");
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, fruits);
         ListView listView = findViewById(R.id.list);
         listView.setAdapter(adapter);
-
     }
 
     @Override
